@@ -1,4 +1,20 @@
+import { useState, useEffect } from 'react';
+
 function App() {
+  const [isMobile, setIsMobile] = useState(false);
+  const [isSmallMobile, setIsSmallMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 768);
+      setIsSmallMobile(window.innerWidth <= 360);
+    };
+
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
   const styles = {
     container: {
       minHeight: '100vh',
@@ -14,7 +30,7 @@ function App() {
       backgroundColor: 'rgba(10, 10, 15, 0.9)',
       backdropFilter: 'blur(8px)',
       borderBottom: '1px solid rgba(107, 33, 168, 0.3)',
-      padding: '16px 24px',
+      padding: isMobile ? '8px 12px' : '16px 24px',
     },
     navContent: {
       maxWidth: '1280px',
@@ -29,7 +45,7 @@ function App() {
       gap: '12px',
     },
     logoText: {
-      fontSize: '24px',
+      fontSize: isMobile ? '16px' : '24px',
       fontWeight: 'bold',
       background: 'linear-gradient(to right, #a855f7, #c084fc)',
       WebkitBackgroundClip: 'text',
@@ -39,7 +55,7 @@ function App() {
     button: {
       background: 'linear-gradient(to right, #6b21a8, #a855f7)',
       color: 'white',
-      padding: '12px 32px',
+      padding: isMobile ? '8px 16px' : '12px 32px',
       borderRadius: '8px',
       fontWeight: 'bold',
       textDecoration: 'none',
@@ -47,11 +63,12 @@ function App() {
       cursor: 'pointer',
       transition: 'all 0.3s',
       boxShadow: '0 4px 14px rgba(107, 33, 168, 0.4)',
+      fontSize: isMobile ? '12px' : 'inherit',
     },
     hero: {
-      paddingTop: '128px',
-      paddingBottom: '80px',
-      padding: '24px',
+      paddingTop: isMobile ? '80px' : '128px',
+      paddingBottom: isMobile ? '32px' : '80px',
+      padding: isMobile ? '12px' : '24px',
       textAlign: 'center',
       position: 'relative',
       backgroundImage: 'url(./hero-bg.gif)',
@@ -129,16 +146,17 @@ function App() {
       border: '1px solid rgba(107, 33, 168, 0.5)',
       backgroundColor: 'transparent',
       color: 'white',
-      padding: '12px 32px',
+      padding: isMobile ? '8px 16px' : '12px 32px',
       borderRadius: '8px',
       fontWeight: 'bold',
       textDecoration: 'none',
       transition: 'all 0.3s',
+      fontSize: isMobile ? '12px' : 'inherit',
     },
     stats: {
       display: 'grid',
-      gridTemplateColumns: 'repeat(4, 1fr)',
-      gap: '24px',
+      gridTemplateColumns: isSmallMobile ? '1fr' : isMobile ? 'repeat(2, 1fr)' : 'repeat(4, 1fr)',
+      gap: isSmallMobile ? '8px' : isMobile ? '12px' : '24px',
       maxWidth: '1280px',
       margin: '0 auto',
     },
@@ -147,12 +165,12 @@ function App() {
       backgroundColor: 'rgba(10, 10, 15, 0.5)',
       backdropFilter: 'blur(4px)',
       borderRadius: '12px',
-      padding: '24px',
+      padding: isSmallMobile ? '8px' : isMobile ? '12px' : '24px',
       boxShadow: '0 0 30px rgba(107, 33, 168, 0.3)',
       textAlign: 'center',
     },
     statNumber: {
-      fontSize: '36px',
+      fontSize: isSmallMobile ? '18px' : isMobile ? '24px' : '36px',
       fontWeight: 'bold',
       background: 'linear-gradient(to right, #a855f7, #c084fc)',
       WebkitBackgroundClip: 'text',
@@ -164,7 +182,7 @@ function App() {
       fontSize: '14px',
     },
     features: {
-      padding: '80px 24px',
+      padding: isMobile ? '32px 12px' : '80px 24px',
       backgroundColor: 'rgba(10, 10, 15, 0.5)',
       backgroundImage: 'url(./wall-bg.gif)',
       backgroundSize: 'contain',
@@ -193,11 +211,11 @@ function App() {
     },
     featuresGrid: {
       display: 'grid',
-      gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-      gap: '32px',
+      gridTemplateColumns: isMobile ? '1fr' : 'repeat(auto-fit, minmax(300px, 1fr))',
+      gap: isMobile ? '16px' : '32px',
     },
     gamePictures: {
-      padding: '80px 24px',
+      padding: isMobile ? '32px 12px' : '80px 24px',
       backgroundColor: 'rgba(10, 10, 15, 0.3)',
     },
     gamePicturesContent: {
@@ -219,14 +237,15 @@ function App() {
     },
     gamePictureRow: {
       display: 'flex',
+      flexDirection: isMobile ? 'column' : 'row',
       alignItems: 'center',
-      gap: '48px',
-      marginBottom: '64px',
+      gap: isMobile ? '16px' : '48px',
+      marginBottom: isMobile ? '32px' : '64px',
       maxWidth: '1200px',
       margin: '0 auto 64px',
     },
     gamePictureRowReverse: {
-      flexDirection: 'row-reverse',
+      flexDirection: isMobile ? 'column' : 'row-reverse',
     },
     gamePictureImage: {
       flex: '1',
@@ -245,11 +264,11 @@ function App() {
       backgroundColor: 'rgba(10, 10, 15, 0.5)',
       backdropFilter: 'blur(4px)',
       borderRadius: '16px',
-      padding: '32px',
+      padding: isMobile ? '16px' : '32px',
       boxShadow: '0 0 30px rgba(107, 33, 168, 0.3)',
     },
     gamePictureTitle: {
-      fontSize: '28px',
+      fontSize: isMobile ? '18px' : '28px',
       fontWeight: 'bold',
       marginBottom: '16px',
       background: 'linear-gradient(to right, #a855f7, #c084fc)',
@@ -307,7 +326,7 @@ function App() {
       backgroundRepeat: 'no-repeat',
       backdropFilter: 'blur(4px)',
       borderRadius: '16px',
-      padding: '32px',
+      padding: isMobile ? '20px 12px' : '32px',
       boxShadow: '0 0 30px rgba(107, 33, 168, 0.3)',
       position: 'relative',
       overflow: 'hidden',
