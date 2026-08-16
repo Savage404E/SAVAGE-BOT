@@ -9,6 +9,3 @@ This Repo are the codes for SAVAGE Bot! it is not extract code of SAVAGE BOT !
   <br><small><p>join our Official Discord Server SAVAGE ! <br/>
 </div>
  
-# License
----
-
