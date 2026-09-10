@@ -12,3 +12,11 @@ This Repo are the codes for SAVAGE Bot! it is not extract code of SAVAGE BOT !
 ---
     
 <img width="744" height="468" alt="image" src="https://github.com/user-attachments/assets/31738d71-9335-4d41-a19f-c84640f781b0" />
+
+---
+
+## Check more :
+
+- SAVAGE GAME WEBSITE : https://github.com/Savage404E/SAVAGE-WEBSITE
+
+- SAVAGE RULES WEBSITE : https://github.com/Savage404E/SAVAGE-RULES
