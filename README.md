@@ -14,8 +14,7 @@ This Repo are the codes for SAVAGE Bot! it is not extract code of SAVAGE BOT !
 ## Check :
 
 - SAVAGE GAME WEBSITE : https://github.com/Savage404E/SAVAGE-WEBSITE
-LIVE: https://savage404e.github.io/SAVAGE-WEBSITE/
-
+- LIVE: https://savage404e.github.io/SAVAGE-WEBSITE/
 - SAVAGE RULES WEBSITE : https://github.com/Savage404E/SAVAGE-RULES
 
 ---
