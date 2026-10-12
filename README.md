@@ -10,6 +10,15 @@ This Repo are the codes for SAVAGE Bot! it is not extract code of SAVAGE BOT !
 </div>
 
 ---
+
+## Check :
+
+- SAVAGE GAME WEBSITE : https://github.com/Savage404E/SAVAGE-WEBSITE
+LIVE: https://savage404e.github.io/SAVAGE-WEBSITE/
+
+- SAVAGE RULES WEBSITE : https://github.com/Savage404E/SAVAGE-RULES
+
+---
 <div align="center">
   <img src="https://raw.githubusercontent.com/Savage404E/SAVAGE-BOT/refs/heads/main/Screenshot%202026-10-12%20223747.png" width="480" alt="SAVAGE screenshot 1">
   <br><br>
@@ -34,10 +43,3 @@ This Repo are the codes for SAVAGE Bot! it is not extract code of SAVAGE BOT !
   <img src="https://raw.githubusercontent.com/Savage404E/SAVAGE-BOT/refs/heads/main/Screenshot%202026-10-12%20224146.png" width="480" alt="SAVAGE screenshot 6">
 </div>
 
----
-
-## Check more :
-
-- SAVAGE GAME WEBSITE : https://github.com/Savage404E/SAVAGE-WEBSITE
-
-- SAVAGE RULES WEBSITE : https://github.com/Savage404E/SAVAGE-RULES
