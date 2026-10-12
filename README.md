@@ -8,24 +8,35 @@ This Repo are the codes for SAVAGE Bot! it is not extract code of SAVAGE BOT !
   <br/>
   <br><small><p>join our Official Discord Server SAVAGE ! <br/>
 </div>
-    
----
-    
-<img width="744" height="468" alt="image" src="https://github.com/user-attachments/assets/31738d71-9335-4d41-a19f-c84640f781b0" />
 
 ---
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Savage404E/SAVAGE-BOT/refs/heads/main/Screenshot%202026-10-12%20223747.png" width="480" alt="SAVAGE screenshot 1">
   <br><br>
+
+---
+
   <img src="https://raw.githubusercontent.com/Savage404E/SAVAGE-BOT/refs/heads/main/Screenshot%202026-10-12%20223906.png" width="480" alt="SAVAGE screenshot 2">
   <br><br>
+
+---
+
   <img src="https://raw.githubusercontent.com/Savage404E/SAVAGE-BOT/refs/heads/main/Screenshot%202026-10-12%20223924.png" width="480" alt="SAVAGE screenshot 3">
   <br><br>
+  
+---
+
   <img src="https://raw.githubusercontent.com/Savage404E/SAVAGE-BOT/refs/heads/main/Screenshot%202026-10-12%20223949.png" width="480" alt="SAVAGE screenshot 4">
   <br><br>
+  
+---
+
   <img src="https://raw.githubusercontent.com/Savage404E/SAVAGE-BOT/refs/heads/main/Screenshot%202026-10-12%20224106.png" width="480" alt="SAVAGE screenshot 5">
   <br><br>
+
+---
+
   <img src="https://raw.githubusercontent.com/Savage404E/SAVAGE-BOT/refs/heads/main/Screenshot%202026-10-12%20224146.png" width="480" alt="SAVAGE screenshot 6">
 </div>
 
