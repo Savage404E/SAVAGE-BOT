@@ -19,26 +19,26 @@ This Repo are the codes for SAVAGE Bot! it is not extract code of SAVAGE BOT !
 
 ---
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Savage404E/SAVAGE-BOT/refs/heads/main/Screenshot%202026-10-12%20223747.png" width="480" alt="SAVAGE screenshot 1">
+  <img src="https://raw.githubusercontent.com/Savage404E/SAVAGE-BOT/refs/heads/main/image_art/pet_cmd.png" width="480" alt="SAVAGE screenshot 1">
   <br><br>
   
 ---
-  <img src="https://raw.githubusercontent.com/Savage404E/SAVAGE-BOT/refs/heads/main/Screenshot%202026-10-12%20223906.png" width="480" alt="SAVAGE screenshot 2">
+  <img src="https://raw.githubusercontent.com/Savage404E/SAVAGE-BOT/refs/heads/main/image_art/clan_cmd.png" width="480" alt="SAVAGE screenshot 2">
   <br><br>
   
 ---
-  <img src="https://raw.githubusercontent.com/Savage404E/SAVAGE-BOT/refs/heads/main/Screenshot%202026-10-12%20223924.png" width="480" alt="SAVAGE screenshot 3">
+  <img src="https://raw.githubusercontent.com/Savage404E/SAVAGE-BOT/refs/heads/main/image_art/Fish.png" width="480" alt="SAVAGE screenshot 3">
   <br><br>
   
 ---
-  <img src="https://raw.githubusercontent.com/Savage404E/SAVAGE-BOT/refs/heads/main/Screenshot%202026-10-12%20223949.png" width="480" alt="SAVAGE screenshot 4">
+  <img src="https://raw.githubusercontent.com/Savage404E/SAVAGE-BOT/refs/heads/main/image_art/mine.png" width="480" alt="SAVAGE screenshot 4">
   <br><br>
   
 ---
-  <img src="https://raw.githubusercontent.com/Savage404E/SAVAGE-BOT/refs/heads/main/Screenshot%202026-10-12%20224106.png" width="480" alt="SAVAGE screenshot 5">
+  <img src="https://raw.githubusercontent.com/Savage404E/SAVAGE-BOT/refs/heads/main/image_art/zoo.png" width="480" alt="SAVAGE screenshot 5">
   <br><br>
   
 ---
-  <img src="https://raw.githubusercontent.com/Savage404E/SAVAGE-BOT/refs/heads/main/Screenshot%202026-10-12%20224146.png" width="480" alt="SAVAGE screenshot 6">
+  <img src="https://raw.githubusercontent.com/Savage404E/SAVAGE-BOT/refs/heads/main/image_art/shop.png" width="480" alt="SAVAGE screenshot 6">
 </div>
 
